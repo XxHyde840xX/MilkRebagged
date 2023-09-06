@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="Milk"]/graphicData</xpath>
+                <value>
+                    <graphicClass>Graphic_StackCount</graphicClass>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Milk"]/graphicData/texPath</xpath>
+                <value>
+                    <texPath>Retextures/Milk</texPath>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
